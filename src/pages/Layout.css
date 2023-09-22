@@ -1,0 +1,198 @@
+.layout{
+  
+}
+
+.nav-down{
+color: white;
+font-size: 20px;
+margin-left: -10%;
+margin-top: 10%;
+
+}
+.logo-img {
+  margin-left: 10%; /* Adjust the percentage as needed */
+  width: 100%; /* Adjust the percentage as needed */
+  height: 80px;
+  max-width: 300px; /* Set a maximum width for the logo */
+  min-width: 300px;
+  margin-right: 10%;
+}
+#last-one{
+  margin-right: 80%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  padding: 1.5rem 3rem; /* Adjust the padding as needed */
+  background-color: #34568c; /* Adjust the color as desired */
+}
+
+#login{
+  background-color: rgba(60, 82, 104, 0.736);
+  padding-left: 2%;
+  padding-bottom:1% ;
+  border-radius: 8%;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-text{
+  font-size: 50px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin-left: 250px;
+  font-weight:700;
+  
+}
+
+.nav-links{
+  display: flex;
+  margin-right: 200px;
+  
+}
+
+.nav-links li{
+  margin-left: 1rem;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links a{
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.nav-links a:hover{
+  color: black;
+}
+
+a.btn{
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-left: 1rem;
+  font-weight: 500;
+  padding: 5px 8px;
+}
+
+a.btn-dark{
+  border: 2px solid color white;
+  background: transparent;
+}
+
+a.btn-light{
+  border: 2px solid color transparent;
+ background: rgba(12, 12, 21, 0.326);
+}
+
+img{
+  height: 50px;
+}
+
+
+.navbar .menu-icons{
+  display: none;
+}
+@media screen and (max-width:769px){
+  .nav-btn, .nav-btn2{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px){
+  .nav-btn, .nav-btn2{
+    display: block;
+  }
+  .nav-links{
+    display: none;
+    border: 2px solid white;
+    /* z-index: 111; */
+  }
+  .navbar .menu-icons{
+    display: block;
+      
+  }
+
+  .navbar #nav-links-mobile,
+  .navbar #nav-links-mobile-hide
+  {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 8rem;
+    width: 100%;
+    border-top: 1px solid white;
+    padding-bottom: 5px;
+    transition: all .3s;
+
+  }
+  .navbar #nav-links-mobile li,
+  .navbar #nav-links-mobile-hide li{
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom:  1px solid white;
+    margin: 0 3rem;
+
+  }
+  .navbar #nav-links-mobile li:last-child
+  .navbar #nav-links-mobile-hide li:last-child{
+    border-bottom:none ;
+  }
+  .navbar #nav-links-mobile{
+    animation: slide-in 0.5s ease-in-out;
+  }
+  @keyframes slide-in{
+    0%{
+      transform: translateX(-100%);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
+  @keyframes slide-in{
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(-100);
+    }
+  }
+  .navbar #nav-links-mobile-hide{
+    left: -100%;
+    animation: slide-out 0.5s ease-in-out;
+  }
+}
+
+/* Add these new styles */
+.profile-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.profile-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 18px;
+  margin-bottom: 1px;
+  color: #ffffff; /* Set the text color to white */
+}
+
+.profile-icon li {
+  margin-left: 5px;
+  font-size: 20px; /* Set the font size for the welcome text to be bigger */
+  font-weight: normal; /* Add font-weight for emphasis */
+}
+
+.profile-icon span {
+  margin-left: 5px; /* Adjust the margin for the welcome text */
+  font-size: 16px; /* Set the font size for the welcome text */
+}

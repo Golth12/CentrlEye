@@ -1,0 +1,115 @@
+.faqmain{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    
+  
+  }
+  .faqtext{
+  font-size: 30px;
+  width:80%;
+  padding:0 0 10% 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  }
+  
+  
+  .text1,.text2,.text3{
+   
+    margin-left: 18%;
+    
+   
+    
+  }
+  .text1{
+    width: 30%;
+    inline-size: 150px;
+      overflow-wrap: break-word;
+  }
+  .text1 h2{
+    margin-left: 15%;
+  
+  }
+  .text2{
+    width: 20%;
+    inline-size: 180px;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  .text2 h2{
+    margin-right: 5%;
+  }
+  .text3{
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  
+  .faq{
+    text-align: center;
+    margin-top: 5%;
+    
+  }
+  .faqservice{
+    display: inline;
+  
+  }
+  
+  hr{
+     color: linear-gradient(135deg, #46e348 0%, #46e348 5%,transparent 5%, transparent 10%, #46e348 10%, #46e348 15%,transparent 15%,transparent 20%, #46e348 20%, #46e348 25%,transparent 25%,transparent 30%, #46e348 30%, #46e348 35%,transparent 35%,transparent 40%, #46e348 40%, #46e348 45%,transparent 45%,transparent 50%, #46e348 50%, #46e348 55%,transparent 55%,transparent 60%, #46e348 60%, #46e348 65%,transparent 65%,transparent 70%, #46e348 70%, #46e348 75%,transparent 70%,transparent 80%, #46e348 80%, #46e348 85%,transparent 85%,transparent 90%, #46e348 90%, #46e348 95%,transparent 95%);
+    background-size: 1em 1em;
+    background-color: #ffffff;
+    opacity: 1;
+    height: 5px;
+    border: none;
+    width: 6%;
+    margin-left: 47%;
+    margin-top: -3%;
+   
+    
+  }
+  
+  .faqservice h4{
+    color: rgba(255, 255, 255, 0.807);
+   margin-top: 3%;
+    font-size: 12px;
+  }
+  .faqservice h2{
+   text-align: center;
+   
+  }
+  
+  .faqtext h2{
+  
+  font-size: 25px;
+  }
+  
+  .faqtext h5{
+  color: #ffffffd4;
+  font-size: 15px;
+  }
+  
+  
+  .icon1, .icon2, .icon3{
+    color: white;
+    filter: drop-shadow(-1px 3px 8px #000);
+   
+  }
+  .icon2{
+    margin-right: 20%;
+  }
+  .icon1{
+  margin-right: 5%;
+  }
+  .icon1, .icon2, .icon3
+  
+  .text1 h2{
+    margin-left: 13%;
+  }
+  
+  .text3 h2{
+    margin-left: 15%;
+  }

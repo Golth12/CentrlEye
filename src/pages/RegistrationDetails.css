@@ -1,0 +1,82 @@
+.signuppage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signupform {
+  width: 500px;
+  height: 700px; /* Increased height to accommodate wrapped text */
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: -50px;
+  word-wrap: break-word; /* Added word-wrap to wrap long texts */
+}
+
+
+.signupform h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signupform p {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.inputField {
+  margin-bottom: 15px;
+}
+
+.inputField label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.inputField input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btnformReg {
+  margin-top: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  background-color: rgb(112, 148, 210);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnformReg:hover {
+  background-color: #7596cc;
+}
+
+span {
+  color: #777;
+}
+
+a {
+  color: rgb(112, 148, 210);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.password-length-info {
+  font-size: 12px;
+  color: #666;
+  margin-top: 1px;
+}
